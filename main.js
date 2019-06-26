@@ -45,8 +45,13 @@ const companies= [
 //     }
 // });
 // console.log(canDrink)
+//
+// we can do it even more elegant with an arrow funtion
+// const canDrink = ages.filter(age => age >= 21);
+// console.log(canDrink);
 
 
-// map
-// sort
-// reduce
+// MAP
+
+// SORT
+// REDUCE
