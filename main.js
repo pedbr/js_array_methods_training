@@ -75,6 +75,25 @@ const companies= [
 //
 // console.log(companyNames)
 
+
 // SORT
+// sort companies by start year
+// const sortedCompanies = companies.sort(function(a, b){
+//     if(a.start > b.start) {
+//         return 1;
+//     } else {
+//         return -1;
+//     }
+// });
+// console.log(sortedCompanies)
 //
+// or with arrow function
+// const sortedCompanies = companies.sort((a,b) => (a.start > b.start ? 1 : -1));
+// console.log(sortedCompanies)
+//
+// to sort ages
+// const sortAges = ages.sort((a, b) => a - b);
+// console.log(sortAges)
+
+
 // REDUCE
