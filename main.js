@@ -12,19 +12,41 @@ const companies= [
   
   const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
+// FOR EACH  
 // normal for loop like it was used before, now considered old practice
+//
 // for(let i = 0; i < companies.length; i++) {
 //     console.log(companies[i]);
 // }
+//
+// with the forEach the solution is way more elegant
+//
+// forEach
+// companies.forEach(function(company) {
+//     console.log(company.name);
+// });
 
-  // forEach
-  
-  companies.forEach(function(company) {
-      console.log(company.name);
-  });
+
+// FILTER
+// with for loop we had to do the following
+//
+// let canDrink = [];
+// for(let i = 0; i < ages.length; i++) {
+//     if(ages[i] >= 21) {
+//         canDrink.push(ages[i]);
+//     }
+// }
+// console.log(canDrink);
+//
+// with the filter loop again simpler and more elegant
+// const canDrink = ages.filter(function(age) {
+//     if(age >= 21) {
+//         return true;;
+//     }
+// });
+// console.log(canDrink)
 
 
-  // filter
-  // map
-  // sort
-  // reduce
+// map
+// sort
+// reduce
