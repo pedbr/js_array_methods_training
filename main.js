@@ -64,6 +64,17 @@ const companies= [
 
 
 // MAP
+// we want to create an array of company names
+// const companyNames = companies.map(function(company){
+//     return company.name;
+// });
+// console.log(companyNames)
+//
+// with arrow function
+// const companyNames = companies.map(company => company.name);
+//
+// console.log(companyNames)
 
 // SORT
+//
 // REDUCE
