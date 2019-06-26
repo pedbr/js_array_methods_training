@@ -12,7 +12,8 @@ const companies= [
   
   const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
-// FOR EACH  
+// FOR EACH 
+// we just want to console.log the array, or a value like the name
 // normal for loop like it was used before, now considered old practice
 //
 // for(let i = 0; i < companies.length; i++) {
@@ -28,6 +29,7 @@ const companies= [
 
 
 // FILTER
+// on the ages array we want to get 21 and older
 // with for loop we had to do the following
 //
 // let canDrink = [];
@@ -49,6 +51,16 @@ const companies= [
 // we can do it even more elegant with an arrow funtion
 // const canDrink = ages.filter(age => age >= 21);
 // console.log(canDrink);
+//
+// if we want to find just retail companies
+// const retailCias = companies.filter(function(company){
+//     if (company.category === 'Retail'){
+//         return true;
+//     }
+// });
+// or
+// const retailCias = companies.filter(company => company.category === 'Retail')
+// console.log(retailCias)
 
 
 // MAP
